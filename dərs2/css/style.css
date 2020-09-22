@@ -1,0 +1,367 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ana {
+  margin: 0rem 4rem;
+}
+
+.bas {
+  z-index: 9999;
+  padding-top: 18px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0ch;
+}
+
+.bas .ilk {
+  width: 70%;
+}
+
+.bas .ilk a {
+  padding: 5px 0px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  float: left;
+}
+
+.bas .link {
+  width: 30;
+  text-align: right;
+  margin-top: 3px;
+}
+
+.bas .link a {
+  font-size: 14.4px;
+  padding: 0px 16px;
+  text-decoration: none;
+  float: right;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.ayr {
+  clear: both;
+}
+
+.say {
+  width: 100%;
+  z-index: 99;
+  text-align: center;
+  padding: 15rem 0rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  position: relative;
+}
+
+.say .saya {
+  width: 100%;
+}
+
+.say .saya h1 {
+  color: #ffffff;
+  font-size: 56px;
+}
+
+.say .saya hr {
+  background-color: #f2643a;
+  border: none;
+  height: 2px;
+  width: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.say .saya p {
+  color: #ffffff;
+  font-size: 18.4px;
+  margin-bottom: 40px;
+}
+
+.say .saya a {
+  color: #ffffff;
+  background-color: #f4623a;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  cursor: -webkit-grab;
+}
+
+.say .saya a:hover {
+  background-color: #df461f;
+}
+
+.say .fon {
+  background-color: #796f6f;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -99;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.sari {
+  background-color: #f4623a;
+  padding: 8rem 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.sari .ic {
+  padding: 0px 15px;
+}
+
+.sari .ic h2 {
+  margin-bottom: 20px;
+  font-size: 40pxpx;
+  color: #ffffff;
+}
+
+.sari .ic hr {
+  background-color: #ffffff;
+  border: none;
+  height: 3px;
+  width: 30px;
+  margin: auto;
+}
+
+.sari .ic p {
+  color: #ffffff;
+  font-size: 19px;
+  margin: 24px 0px 44px;
+}
+
+.sari .ic a {
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 15px;
+}
+
+.sari .ic a:hover {
+  background-color: #d3cdcd;
+}
+
+.boyuk {
+  padding: 5rem 0rem;
+}
+
+.boyuk .bir {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.boyuk .bir h2 {
+  color: #212529;
+  font-size: 32px;
+}
+
+.boyuk .bir hr {
+  background-color: #f4623a;
+  height: 3px;
+  width: 40px;
+  border: none;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.boyuk .icons .icon {
+  margin-bottom: 80px;
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+.boyuk .icons .icon h3 {
+  color: #212529;
+  font-size: 24px;
+}
+
+.boyuk .icons .icon p {
+  color: #212529;
+  font-size: 16px;
+}
+
+.boyuk .icons .icon i {
+  color: #f4623a;
+  background-color: #ffffff;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.boks .bok {
+  position: relative;
+  width: 33.3333333333333%;
+  float: left;
+  position: relative;
+}
+
+.boks .bok:hover .boxtext {
+  opacity: 1;
+}
+
+.boks .bok .uz {
+  background-color: #f4623a;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.boks .bok .uz:hover {
+  opacity: 0.8;
+}
+
+.boks .bok img {
+  width: 100%;
+}
+
+.boks .bok .boxtext {
+  z-index: 99999999;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.boks .bok p {
+  color: #ccc1c1;
+}
+
+.boks .bok h2 {
+  color: #ffffff;
+}
+
+.tek {
+  padding: 10rem;
+  background-color: #6c757d;
+  text-align: center;
+}
+
+.tek h2 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.tek a {
+  padding: 20px 36px;
+  font-size: 13.6px;
+  background-color: #f8f9f1;
+  color: #212529;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.tek a:hover {
+  background-color: #6c757d;
+}
+
+.son {
+  padding: 10rem 0rem;
+}
+
+.son .birr {
+  text-align: center;
+}
+
+.son .birr h2 {
+  margin-bottom: 20px;
+  color: #212529;
+  font-size: 32px;
+}
+
+.son .birr hr {
+  background-color: #df461f;
+  margin: auto;
+  width: 30px;
+  height: 3px;
+  border: none;
+}
+
+.son .birr p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.son .iki {
+  margin-top: 30px;
+}
+
+.son .iki .ikii {
+  padding-bottom: 68px;
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+.son .iki i {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #6c757d;
+  background-color: #ffffff;
+  font-size: 60px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.son .iki i:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.son .iki a {
+  color: #df461f;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.son .iki a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.sonluq {
+  padding-top: 200px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.sonluq footer {
+  color: #6c757d;
+  font-size: 19px;
+}
+/*# sourceMappingURL=style.css.map */
